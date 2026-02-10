@@ -8,15 +8,15 @@ This folder contains code to various packages.
 2. Feel free to modify the packages to however you want. A shoutout in your code would be appreciated. 
 3. Build the package with the code below. 
 
-```
+``` bash
 python -m build
 ```
 
 This will create a subfolder called "dist" with two files in it. You should be able to upload either file to a custom Environment in Microsoft Fabric under the "Libraries" > "Custom" section.
 
-### fabric-logger-package
+## fabric-logger-package
 Usage:
-```
+``` python
 database = "Logging"
 table = "NotebookLogging"
 eventhouse_uri = "https://<your-kusto-cluster>.kusto.fabric.microsoft.com"
